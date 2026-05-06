@@ -194,21 +194,6 @@ Additional external metric implementations may also be required:
 
 ---
 
-# Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{prazeres2024fsm,
-  title={Objective Quality Evaluation of Point Clouds: Quality Features and Fusion Metrics},
-  author={Prazeres, Joao and Rodrigues, Rafael and Pereira, Manuela and Pinheiro, Antonio M. G.},
-  journal={IEEE Access},
-  year={2024}
-}
-```
-
----
-
 # Acknowledgements
 
 This work was supported by:
