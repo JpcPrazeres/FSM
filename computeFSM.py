@@ -69,7 +69,7 @@ cols = X.columns
 # ==========================================================
 
 scaler = pre.MinMaxScaler()
-
+print(X)
 X = scaler.fit_transform(X)
 
 X = pd.DataFrame(X,columns=cols)
@@ -80,18 +80,7 @@ X = pd.DataFrame(X,columns=cols)
 # ==========================================================
 
 y_pred = model.predict(X)
-
-# ==========================================================
-# Optional:
-# If MOS exists in file apply logistic fitting
-# ==========================================================
-
-if "mos" in eval_data.columns:
-
-    y_true = eval_data["mos"]
-    predMos = ut.logFitting(y_pred,y_true)
-    y_pred = predMos
-
+print(y_pred)
 
 # ==========================================================
 # Save results
