@@ -26,9 +26,8 @@ with **Ridge Regression**.
 
 
 Additional external metric implementations are required:
-- PCQM
-- PointSSIM
-- MS-GraphSIM
+- [PCQM](https://github.com/MEPP-team/PCQM)
+- [MS-GraphSIM](https://github.com/zhangyujie-1998/MS_GraphSIM)
 - MPEG PCC tools
 
 ---
